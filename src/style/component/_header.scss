@@ -1,0 +1,32 @@
+
+header{
+    display: flex;
+    justify-content: flex-end;
+
+
+.navbar {
+    margin: 40px 100px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    ul a {
+      font-family: Montserrat, sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: DarkGoldenrod;
+      text-decoration: none !important;
+      margin-left: 30px;
+    }
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    header{
+      justify-content: center;
+    }
+   .navbar{
+    padding-left: 25px;
+    }
+  
+  }
