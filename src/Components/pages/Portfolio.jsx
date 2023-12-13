@@ -1,6 +1,13 @@
 import React from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
+import image1 from '../../assets/pages.png'
+import image2 from '../../assets/html.jpg'
+import image3 from '../../assets/css.jpg'
+import image4 from '../../assets/js.jpg'
+import image5 from '../../assets/react.jpg'
+import image6 from '../../assets/sass.jpg'
+import image7 from '../../assets/redux.jpg'
 
 export default function Portfolio() {
   return (
@@ -16,7 +23,7 @@ export default function Portfolio() {
           SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS DES
           UTILISATEURS.
         </p>
-        <img src="/pages.png" alt="pages" />
+        <img src={image1} alt="pages" />
        
       </section>
 
@@ -33,12 +40,12 @@ export default function Portfolio() {
           </p>
           
           <div className="logos" >
-          <img  src="/html.jpg"  alt="html-logo"  />
-          <img src="/css.jpg" alt="css-logo" />
-          <img src="/js.jpg" alt="js-logo" />
-          <img src="/react.jpg" alt="react-logo" />
-          <img src="/sass.jpg" alt="sass-logo" />
-          <img src="/redux.jpg" alt="redux-logo" />
+          <img src={image2} alt="html" />
+          <img src={image3} alt="css-logo" />
+          <img src={image4} alt="js-logo" />
+          <img src={image5} alt="react-logo" />
+          <img src={image6} alt="sass-logo" />
+          <img src={image7} alt="redux-logo" />
           </div>
 
         </div>

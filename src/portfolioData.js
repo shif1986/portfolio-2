@@ -1,8 +1,18 @@
+import image1 from "./assets/booki.jpg"
+import image2 from "./assets/ohmyfood.jpg"
+import image3 from "./assets/photographe.jpg"
+import image4 from "./assets/architecte.jpg"
+import image5 from "./assets/kasa.jpg"
+import image6 from "./assets/evenementielle.jpg"
+import image7 from "./assets/redball-tours.jpg"
+import image8 from "./assets/accompagn'actif.jpg"
+
+
 export const portfolioData = [
   {
     id: 1,
     name: "Booki",
-    image: "/booki.jpg",
+    image: image1,
     alt:"living-room",
     language:"Language : HTML, CSS",
     link : "https://shif1986.github.io/booki/",
@@ -11,7 +21,7 @@ export const portfolioData = [
   {
     id: 2,
     name: "OhMyFood",
-    image: "/ohmyfood.jpg",
+    image: image2,
     alt:"Fine-dine-dish",
     language:"Language : HTML, CSS ANIMATION",
     link : "https://shif1986.github.io/Oh-my-food/",
@@ -19,7 +29,7 @@ export const portfolioData = [
   {
     id: 3,
     name: "Photographe",
-    image: "/photographe.jpg",
+    image: image3,
     alt:"Closer-look-of-eye",
     language: "Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P9-Photographe/",
@@ -27,7 +37,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "Architecte ",
-    image: "/architecte.jpg",
+    image: image4,
     alt:"House-front",
     language:"Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P6-Architecte/",
@@ -35,7 +45,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "Kasa",
-    image: "/kasa.jpg",
+    image: image5,
     alt:"kitchen",
     language:"Language : REACT",
     link: "https://shif1986.github.io/Kasa/"
@@ -44,7 +54,7 @@ export const portfolioData = [
    {
     id: 6 ,
     name: "Evènementielle",
-    image: "/evenementielle.jpg",
+    image: image6,
     alt:"Closer-look-of-eye",
     language:"Language : REACT",
     link : "https://shif1986.github.io/P10-D-buggez/",
@@ -53,7 +63,7 @@ export const portfolioData = [
   {
     id: 7,
     name: "Redball Tours ",
-    image: "/redball-tours.jpg",
+    image: image7,
     alt:"river-drive",
     language:"Language : WORDPRESS",
     link : " https://redballtours.com/",
@@ -62,7 +72,7 @@ export const portfolioData = [
   {
     id: 8,
     name: "Accompagne'Actif",
-    image: "/accompagn'actif.jpg",
+    image: image8,
     alt:"page-d'accueil",
     language:"Language : WORDPRESS",
     link :  "https://accompagn-actif.com/",
