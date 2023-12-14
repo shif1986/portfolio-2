@@ -1,15 +1,30 @@
 {
   "files": {
     "main.css": "/portfolio-2/static/css/main.7cf25587.css",
-    "main.js": "/portfolio-2/static/js/main.bb2a81cb.js",
+    "main.js": "/portfolio-2/static/js/main.2a90640e.js",
     "static/js/787.6a38f493.chunk.js": "/portfolio-2/static/js/787.6a38f493.chunk.js",
+    "static/media/pages.png": "/portfolio-2/static/media/pages.956b99cc1facda01c9ef.png",
+    "static/media/photographe.jpg": "/portfolio-2/static/media/photographe.b43d752cba35163153d8.jpg",
+    "static/media/redball-tours.jpg": "/portfolio-2/static/media/redball-tours.8b466faab679a9033f0c.jpg",
+    "static/media/kasa.jpg": "/portfolio-2/static/media/kasa.b5863d7e7f1aead1a8d9.jpg",
+    "static/media/ohmyfood.jpg": "/portfolio-2/static/media/ohmyfood.d1e0a682760e269ad6cc.jpg",
+    "static/media/architecte.jpg": "/portfolio-2/static/media/architecte.a04ab75aea807afe7313.jpg",
+    "static/media/booki.jpg": "/portfolio-2/static/media/booki.b13d209e3fed95cdaf65.jpg",
+    "static/media/accompagn'actif.jpg": "/portfolio-2/static/media/accompagn'actif.10b3df4346503aa29a19.jpg",
+    "static/media/evenementielle.jpg": "/portfolio-2/static/media/evenementielle.b2bdc91c4df37e96688f.jpg",
+    "static/media/redux.jpg": "/portfolio-2/static/media/redux.1e3eefd02226e4924c96.jpg",
+    "static/media/sass.jpg": "/portfolio-2/static/media/sass.e6820b2443eec585c744.jpg",
+    "static/media/js.jpg": "/portfolio-2/static/media/js.2dbfdec8b5210cc07f7a.jpg",
+    "static/media/css.jpg": "/portfolio-2/static/media/css.7206b42baa5e94da521e.jpg",
+    "static/media/html.jpg": "/portfolio-2/static/media/html.14c4640328435c35b26b.jpg",
+    "static/media/react.jpg": "/portfolio-2/static/media/react.e71cc0b7d36a14f9d220.jpg",
     "index.html": "/portfolio-2/index.html",
     "main.7cf25587.css.map": "/portfolio-2/static/css/main.7cf25587.css.map",
-    "main.bb2a81cb.js.map": "/portfolio-2/static/js/main.bb2a81cb.js.map",
+    "main.2a90640e.js.map": "/portfolio-2/static/js/main.2a90640e.js.map",
     "787.6a38f493.chunk.js.map": "/portfolio-2/static/js/787.6a38f493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cf25587.css",
-    "static/js/main.bb2a81cb.js"
+    "static/js/main.2a90640e.js"
   ]
 }
