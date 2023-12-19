@@ -6,6 +6,7 @@ export default function contact() {
   return (
     <div>
       <ContactForm />
+ 
    
     </div>
   );

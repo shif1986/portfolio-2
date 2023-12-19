@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { portfolioData } from "../portfolioData";
 
+// Props permet de reutiliser les codes dans plusiers composents
+// je recupere id, images, name etc.. de data, puis j'utilise card composent directement dans portefolio dans une dive 
+
 export default function Cards({ id, image, name, alt,language,link }) {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
@@ -8,7 +11,9 @@ export default function Cards({ id, image, name, alt,language,link }) {
   };
 
   return (
+
     <div>
+    
       <h2> {name} </h2>
       <img onClick={toggleModal} className="open-modal" src={image} />
       <p className="open-mdl-text" ></p>
