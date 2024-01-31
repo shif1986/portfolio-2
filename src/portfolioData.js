@@ -11,7 +11,7 @@ import image8 from "./assets/accompagn'actif.jpg"
 export const portfolioData = [
   {
     id: 1,
-    name: "Booki",
+    name: "Agence Voyage",
     image: image1,
     alt:"living-room",
     language:"Language : HTML, CSS",
@@ -20,7 +20,7 @@ export const portfolioData = [
   },
   {
     id: 2,
-    name: "OhMyFood",
+    name: "Restaurent",
     image: image2,
     alt:"Fine-dine-dish",
     language:"Language : HTML, CSS ANIMATION",
@@ -44,7 +44,7 @@ export const portfolioData = [
   },
   {
     id: 5,
-    name: "Kasa",
+    name: "Agence Immobilière",
     image: image5,
     alt:"kitchen",
     language:"Language : REACT",
@@ -62,7 +62,7 @@ export const portfolioData = [
   },
   {
     id: 7,
-    name: "Redball Tours ",
+    name: "Agence Voyage",
     image: image7,
     alt:"river-drive",
     language:"Language : WORDPRESS",
@@ -71,7 +71,7 @@ export const portfolioData = [
   },
   {
     id: 8,
-    name: "Accompagne'Actif",
+    name: "Conseiller",
     image: image8,
     alt:"page-d'accueil",
     language:"Language : WORDPRESS",

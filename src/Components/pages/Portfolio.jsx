@@ -13,6 +13,7 @@ export default function Portfolio() {
   return (
     <div>
       <section className="headline">
+        
         <h1>Bienvenue</h1>
         <h2>
           Je m'appelle Shifnas Saleem, Je suis Freelance, Developpeur Web.
@@ -23,7 +24,7 @@ export default function Portfolio() {
           SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS DES
           UTILISATEURS.
         </p>
-        <img src={image1} alt="pages" />
+        {/* <img src={image1} alt="pages" /> */}
        
       </section>
 
@@ -51,9 +52,9 @@ export default function Portfolio() {
         </div>
       </section>
               {/* Galery Porfolio */}
-      <div className="p-title">
+      <div className="gallerie">
         <h1>Portfolio</h1>
-      </div>
+     
 
       <div className="card-container">
         {portfolioData.map((portfolio) => {
@@ -70,6 +71,7 @@ export default function Portfolio() {
             </div>
           );
         })}
+      </div>
       </div>
     </div>
   );

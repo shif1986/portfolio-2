@@ -1,14 +1,16 @@
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    background: white;
 
 
 .navbar {
-    margin: 40px 100px 0 0;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
   
     ul a {
       font-family: Montserrat, sans-serif;
@@ -17,9 +19,17 @@ header{
       color: DarkGoldenrod;
       text-decoration: none !important;
       margin-left: 30px;
+      
     }
+   
+    
   }
 }
+// header:hover{
+     
+//   background: white;
+ 
+//  }
   
   @media screen and (max-width: 768px) {
     header{
