@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <nav className="navbar">
       
-                    {/* navlink = href */}
+            {/* navlink = href */}
         <ul>
           <NavLink className="navbar__link" to="portfolio"> Portfolio</NavLink>
           <NavLink className="navbar__link" to="service">Service</NavLink>

@@ -63,6 +63,7 @@ section.competences {
   align-items: center;
   background-color: #0d2533;
   height: 100vh;
+  margin: 0 15px;
 
   .logos {
     display: grid;
@@ -108,12 +109,14 @@ section.competences {
 
 @media screen and (max-width: 768px) {
   .headline {
-    margin: 0 20px;
+    margin: -30px 20px;
+    background: none;
     h2 {
       text-align: center;
     }
     p {
       width: 100%;
+      font-size: 18px;
     }
     img {
       border-radius: 10px;
@@ -121,5 +124,17 @@ section.competences {
   }
   .p-title h1 {
     margin: 0 0 3rem;
+  }
+  section.competences{
+    p{
+      font-size: 18px;
+    width: 100%;
+    margin-left: 0;
+
+    }
+    img{
+      border: 3px solid;
+      width: 300%;
+    }
   }
 }

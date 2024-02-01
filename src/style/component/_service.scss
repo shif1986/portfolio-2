@@ -6,11 +6,13 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 0 15px;
   .list-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+   
    
 
   
@@ -25,7 +27,8 @@
     text-align: center; 
     padding: 50px;
     border-radius: 10px;
-    margin-bottom: 80px;
+   
+    margin: 0 15px 80px;
     i{
       display: flex;
       align-items: center;
@@ -37,5 +40,14 @@
     
   }
   
+
+}
+@media screen and (max-width: 1028px){
+.container-service{
+  p{
+    width: 50%;
+  }
+}
+
 
 }

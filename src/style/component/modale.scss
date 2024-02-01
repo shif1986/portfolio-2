@@ -78,7 +78,7 @@
       }
     }
     .close-modal {
-      top: 7%;
+      top: 3%;
       right: 7%;
       font-size: 10px;
     }
@@ -89,6 +89,7 @@
   .card-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .modal-content {
     width: 700px;
