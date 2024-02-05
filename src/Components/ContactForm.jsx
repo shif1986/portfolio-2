@@ -65,18 +65,18 @@ const ContactForm = () => {
         </p>
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Votre nom"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <input
           type="email"
-          placeholder="Your email address"
+          placeholder="Votre adresse mail"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <textarea
-          placeholder="Your message"
+          placeholder="Votre message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
