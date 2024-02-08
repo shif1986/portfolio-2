@@ -4,13 +4,15 @@ import Header from "./Components/header";
 import Footer from "./Components/footer";
 import Contact from "./Components/pages/Contact";
 import Service from "./Components/pages/Service";
+import Accueil from "./Components/pages/Accueil";
 
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/*" element={<Portfolio />} />
+        <Route path="/accueil" element={<Accueil />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
       </Routes>

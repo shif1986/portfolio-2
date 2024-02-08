@@ -10,6 +10,7 @@ export default function Header() {
       
             {/* navlink = href */}
         <ul>
+        <NavLink className="navbar__link" to="accueil"> Accueil</NavLink>
           <NavLink className="navbar__link" to="portfolio"> Portfolio</NavLink>
           <NavLink className="navbar__link" to="service">Service</NavLink>
           <NavLink className="navbar__link" to="contact">Contact</NavLink>

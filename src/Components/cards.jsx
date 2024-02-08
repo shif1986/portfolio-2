@@ -30,7 +30,7 @@ export default function Cards({ id, image, name, alt,language,link }) {
             <a href={link}> {link} </a>
             </div>
            
-            <img src={image} alt="images" />
+            <img className="image-modale" src={image} alt="images" />
             <button onClick={toggleModal} className="close-modal">
               X
             </button>
