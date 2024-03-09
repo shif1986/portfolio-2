@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.22d4cb85.css",
-    "main.js": "/portfolio-2/static/js/main.7f89d435.js",
+    "main.css": "/portfolio-2/static/css/main.9926482b.css",
+    "main.js": "/portfolio-2/static/js/main.09267ecb.js",
     "static/js/787.6a38f493.chunk.js": "/portfolio-2/static/js/787.6a38f493.chunk.js",
+    "static/media/image-backround.jpg": "/portfolio-2/static/media/image-backround.514ddb2ba5b970e3a25d.jpg",
     "static/media/photographe.webp": "/portfolio-2/static/media/photographe.c544db4824831c685a60.webp",
     "static/media/redball-tours.webp": "/portfolio-2/static/media/redball-tours.0513498b638f230d6c6c.webp",
     "static/media/kasa.webp": "/portfolio-2/static/media/kasa.6c4866b80dae37f2b630.webp",
@@ -18,12 +19,12 @@
     "static/media/html.webp": "/portfolio-2/static/media/html.99e892ce12702f1808a1.webp",
     "static/media/js.webp": "/portfolio-2/static/media/js.2d8a1923f6ef7cebdabe.webp",
     "index.html": "/portfolio-2/index.html",
-    "main.22d4cb85.css.map": "/portfolio-2/static/css/main.22d4cb85.css.map",
-    "main.7f89d435.js.map": "/portfolio-2/static/js/main.7f89d435.js.map",
+    "main.9926482b.css.map": "/portfolio-2/static/css/main.9926482b.css.map",
+    "main.09267ecb.js.map": "/portfolio-2/static/js/main.09267ecb.js.map",
     "787.6a38f493.chunk.js.map": "/portfolio-2/static/js/787.6a38f493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22d4cb85.css",
-    "static/js/main.7f89d435.js"
+    "static/css/main.9926482b.css",
+    "static/js/main.09267ecb.js"
   ]
 }
