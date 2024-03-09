@@ -4,6 +4,17 @@
   justify-content: center;
   align-items: center;
   margin: 85px 50px;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
 
   .wrapper_list {
     // max-width: 1140px;
@@ -31,32 +42,30 @@
         font-size: 30px;
         color: DarkGoldenrod;
         padding-right: 20px;
+        
+        
       }
+        //  .wrapper_icon :hover{
+            
+        //           transform: rotate(45deg);
+        //      }
+
       .wrapper_container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
+       
+ 
       }
     }
     .container-text{
       line-height: 1.7;
       padding: 0 15px 15px;
       font-size: 18px;
+      
     }
-    .text-contenu {
-      p {
-        // width: 60%;
-        text-align: start;
-        line-height: 1.3;
-        font-size: 20px;
-        background-color: #fff;
-        text-align: center;
-        padding: 50px;
-        border-radius: 10px;
-        margin: 0 15px 80px;
-      }
-    }
+   
   }
 }
 

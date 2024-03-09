@@ -1,62 +1,45 @@
-.headline {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 
-  // Animtion
-  $bgWidth: 10000px;
-  background: linear-gradient(
-    to right,
-    #0d2533 0%,
-    #143446 19%,
-    #0d2533 40%,
-    #214358 60%,
-    
-    #484130 83%,
-    #0d2533 100%
-  );
-  background-size: $bgWidth 100%;
-  animation: bg 15s linear infinite;
-
-  @keyframes bg {
-    0% {
-      background-position-x: 0;
-    }
-
-    100% {
-      background-position-x: $bgWidth;
-    }
-  }
-  h1 {
+  .headline {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 35px;
-  }
-  h2{
-    font-size: 25px;
-  }
-  p {
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin: 2% 15%;
     align-items: center;
-    text-align: center;
-    line-height: 30px;
+    position: relative;
     
+    img {
+      background-size: cover;
+      height: 100vh;
+      /* min-height: 100%; */
+      width: 100%;
+      object-fit: cover;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 35px;
+      position: absolute;
+      bottom: 58%;
+    }
+    h2 {
+      font-size: 25px;
+      position: absolute;
+      bottom: 50%;
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      margin: 2% 15%;
+      align-items: center;
+      text-align: center;
+      line-height: 30px;
+      position: absolute;
+      bottom: 30%;
+    }
   }
 
- 
-  img {
-    width: 100%;
-    height: 400px;
-    margin-top: 100px;
-    object-fit: cover;
-  }
-}
 section.competences {
   display: flex;
   justify-content: center;
@@ -82,30 +65,28 @@ section.competences {
     border: 6px solid;
     padding: 2%;
   }
-  h1, p{
+  h1,
+  p {
     display: flex;
     justify-content: center;
     text-align: center;
   }
-  p{
+  p {
     width: 49%;
     margin-left: 25%;
     font-size: 20px;
     line-height: 25px;
     color: #fff;
-}
   }
+}
 
-
-.gallerie  {
-    // height: 100vh;
-    h1{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
-  
+.gallerie {
+  // height: 100vh;
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -126,14 +107,13 @@ section.competences {
   .p-title h1 {
     margin: 0 0 3rem;
   }
-  section.competences{
-    p{
+  section.competences {
+    p {
       font-size: 18px;
-    width: 100%;
-    margin-left: 0;
-
+      width: 100%;
+      margin-left: 0;
     }
-    img{
+    img {
       border: 3px solid;
       width: 300%;
     }
