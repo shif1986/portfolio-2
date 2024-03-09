@@ -1,54 +1,70 @@
-.container-service {
+.wrapper_service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 85px 50px;
+
+  .wrapper_list {
     // max-width: 1140px;
     margin-inline: auto;
-    padding-block: 70px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    padding-block: 15px;
     margin: 0 15px;
-  .list-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-   
-   
+    width: 80%;
+    .wrapper {
+      background-color: #fff;
+      border-radius: 15px;
 
-  
-    
-  }
-  p {
-    width: 60%;
-    text-align: start;
-    line-height: 1.3;
-    font-size: 20px;
-    background-color: #fff;
-    text-align: center; 
-    padding: 50px;
-    border-radius: 10px;
-   
-    margin: 0 15px 80px;
-    i{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 30px;
-      font-size: 30px;
-      color: DarkGoldenrod;
+      h2 {
+        // width: 67%;
+        font-size: 20px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+        border: black;
+        color: DarkGoldenrod;
+        text-transform: uppercase;
+      }
+      .wrapper_icon {
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+        color: DarkGoldenrod;
+        padding-right: 20px;
+      }
+      .wrapper_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
     }
-    
+    .container-text{
+      line-height: 1.7;
+      padding: 0 15px 15px;
+      font-size: 18px;
+    }
+    .text-contenu {
+      p {
+        // width: 60%;
+        text-align: start;
+        line-height: 1.3;
+        font-size: 20px;
+        background-color: #fff;
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        margin: 0 15px 80px;
+      }
+    }
   }
-  
-
 }
-@media screen and (max-width: 1028px){
-.container-service{
-  p{
-    width: 75%;
-    padding: 30px;
+
+@media screen and (max-width: 1028px) {
+  .wrapper-service {
+    p {
+      width: 75%;
+      padding: 30px;
+    }
   }
-}
-
-
 }

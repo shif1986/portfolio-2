@@ -1,13 +1,13 @@
 import React from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
-import image1 from '../../assets/pages.png'
-import image2 from '../../assets/html.jpg'
-import image3 from '../../assets/css.jpg'
-import image4 from '../../assets/js.jpg'
-import image5 from '../../assets/react.jpg'
-import image6 from '../../assets/sass.jpg'
-import image7 from '../../assets/redux.jpg'
+
+import image2 from '../../assets/html.webp'
+import image3 from '../../assets/css.webp'
+import image4 from '../../assets/js.webp'
+import image5 from '../../assets/react.webp'
+import image6 from '../../assets/sass.webp'
+import image7 from '../../assets/redux.webp'
 
 export default function Accueil() {
   return (

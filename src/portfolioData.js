@@ -1,11 +1,11 @@
-import image1 from "./assets/booki.jpg"
-import image2 from "./assets/ohmyfood.jpg"
-import image3 from "./assets/photographe.jpg"
-import image4 from "./assets/architecte.jpg"
-import image5 from "./assets/kasa.jpg"
-import image6 from "./assets/evenementielle.jpg"
-import image7 from "./assets/redball-tours.jpg"
-import image8 from "./assets/accompagn'actif.jpg"
+import image1 from "./assets/booki.webp"
+import image2 from "./assets/ohmyfood.webp"
+import image3 from "./assets/photographe.webp"
+import image4 from "./assets/architecte.webp"
+import image5 from "./assets/kasa.webp"
+import image6 from "./assets/evenementielle.webp"
+import image7 from "./assets/redball-tours.webp"
+import image8 from "./assets/accompagnactif.webp"
 
 
 export const portfolioData = [
@@ -79,4 +79,30 @@ export const portfolioData = [
    
   },
 
+];
+
+export const serviceData = [
+  {
+    id : 1,
+    titre :"Developpement",
+    contenu : 'Développement Transformez vos idées en réalité avec nos services de développement web sur mesure. Conception graphique pour un design attrayant Expérience Utilisateur (UX|UI) pour une interface conviviale Responsive design pour une expérience utilisateur optimale sur tous les appareils intégration Web. pour lier les différentes composantes du site Développement de fonctionnalités personnalisées Optimisation des performances et de la vitesse Tests et débogage pour assurer la qualité du code Maintenance et mises à jour régulières'
+  },
+
+  {
+    id : 2,
+    titre :"SEO",
+    contenu : 'Développement Transformez vos idées en réalité avec nos services de développement web sur mesure. Conception graphique pour un design attrayant Expérience Utilisateur (UX|UI) pour une interface conviviale Responsive design pour une expérience utilisateur optimale sur tous les appareils intégration Web. pour lier les différentes composantes du site Développement de fonctionnalités personnalisées Optimisation des performances et de la vitesse Tests et débogage pour assurer la qualité du code Maintenance et mises à jour régulières'
+  },
+
+  {
+    id : 3,
+    titre :"Solution web",
+    contenu : "Conseils et élaboration de stratégies pour optimiser la présence en ligne. Analyse de l'existant et identification des opportunités. Élaboration de stratégies de marketing numérique. Conseils en branding et en communication. Optimisation du parcours utilisateur (UX)Analyse et suivi des performances."
+
+  },
+    {
+    id : 4,
+    titre :"Consultation et strategie",
+    contenu : "Développement Transformez vos idées en réalité avec nos services de développement web sur mesure. Conception graphique pour un design attrayant Expérience Utilisateur (UX|UI) pour une interface conviviale Responsive design pour une expérience utilisateur optimale sur tous les appareils intégration Web. pour lier les différentes composantes du site Développement de fonctionnalités personnalisées Optimisation des performances et de la vitesse Tests et débogage pour assurer la qualité du code Maintenance et mises à jour régulières"
+  }
 ];

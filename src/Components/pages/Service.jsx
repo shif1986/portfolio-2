@@ -1,68 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaArrowUp } from "react-icons/fa6";
+import { serviceData } from "../../portfolioData";
+import { CgAdd } from "react-icons/cg";
+import { FiMinusCircle } from "react-icons/fi";
 
-export default function service() {
+export default function Service() {
+  const [showList, setShowList] = useState({});
+
+  const isToggle = (id) => {
+    console.log("showlist", showList);
+    console.log("id", id);
+ 
+    setShowList(
+      (prevState) => (
+        console.log("prevstate", prevState),
+        {
+          // Destructuration on récupere tout les élements dans l'api ( ...prevState)
+          ...prevState,
+          [id]: !prevState[id],
+        }
+      )
+    );
+  };
+
   return (
-    
     <div className="container-service">
-    
-     <div className="list-container">
-    
-      
-        <h2>Developement</h2>
-        <p>
-        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
-          Développement Transformez vos idées en réalité avec nos services de
-          développement web sur mesure. Conception graphique pour un design
-          attrayant Expérience Utilisateur (UX|UI) pour une interface conviviale
-          Responsive design pour une expérience utilisateur optimale sur tous
-          les appareils intégration Web. pour lier les différentes composantes du
-          site Développement de fonctionnalités personnalisées Optimisation des
-          performances et de la vitesse Tests et débogage pour assurer la
-          qualité du code Maintenance et mises à jour régulières.
-        </p>
-     
-      
-        <h2>SEO</h2>
-        <p>
-        {/* <i class="fa-solid fa-lightbulb"></i> */}
-          Optimisez votre site web pour les moteurs de recherche et améliorez
-          votre visibilité en ligne. Référencement naturel pour améliorer la
-          visibilité sur les moteurs de recherche. Optimisation technique des
-          balises HTML pour une meilleure compréhension par les moteurs de
-          recherche. Optimisation SEO du contenu textuel pour une pertinence
-          accrue. Amélioration de la rapidité du site pour une meilleure
-          expérience utilisateur. Recherche de liens extérieurs (backlinks) pour
-          renforcer l'autorité du siteAnalyse et suivi des performances SEO
-          pour des ajustements continus.
-        </p>
-    
+      <div className="wrapper_service">
+        {serviceData.map((service) => {
+            
+          return (
+            <div className="wrapper_list" key={service.id}>
+              <div className="wrapper">
+                <div className="wrapper_container">
+                  <div className="wrapper-title">
+                    <h2>{service.titre} </h2>
+                  </div>
+                  <div
+                    onClick={() => isToggle(service.id)}
+                    className="wrapper_icon"
+                  >
+                   
 
-     
-        <h2>Solution web</h2>
-        <p>
-        {/* <i class="fa-solid fa-globe"></i> */}
-          Propulsez votre présence en ligne avec nos solutions web
-          personnalisées pour répondre à vos besoins spécifiques. Conception et
-          développement de sites web sur mesure Création de sites e-commerce
-          performants. Développement d'applications web interactives. Optimisation
-          des performances et de l'expérience utilisateur. Maintenance et support
-          technique.
-        </p>
-     
+                    {showList[service.id] ? <FiMinusCircle />  : <CgAdd />  }
+                  </div>
+                </div>
 
-      
-        <h2>Consultation et strategie</h2>
-        <p>
-        {/* <i class="fa-solid fa-glasses"></i> */}
-          Conseils et élaboration de stratégies pour optimiser la présence en
-          ligne. Analyse de l'existant et identification des
-          opportunités. Élaboration de stratégies de marketing numérique. Conseils
-          en branding et en communication. Optimisation du parcours utilisateur
-          (UX)Analyse et suivi des performances.
-        </p>
-
-     </div>
+                {showList[service.id] && (
+                  <div
+                    onClick={() => isToggle(service.id)}
+                    className="container-text"
+                  >
+                    <p> {service.contenu} </p>
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
