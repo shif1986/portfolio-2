@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.9926482b.css",
-    "main.js": "/portfolio-2/static/js/main.09267ecb.js",
+    "main.css": "/portfolio-2/static/css/main.e9f60d73.css",
+    "main.js": "/portfolio-2/static/js/main.721c3af8.js",
     "static/js/787.6a38f493.chunk.js": "/portfolio-2/static/js/787.6a38f493.chunk.js",
     "static/media/image-backround.jpg": "/portfolio-2/static/media/image-backround.514ddb2ba5b970e3a25d.jpg",
+    "static/media/logo-competance.png": "/portfolio-2/static/media/logo-competance.e5913fe107a3362b29ac.png",
     "static/media/photographe.webp": "/portfolio-2/static/media/photographe.c544db4824831c685a60.webp",
     "static/media/redball-tours.webp": "/portfolio-2/static/media/redball-tours.0513498b638f230d6c6c.webp",
     "static/media/kasa.webp": "/portfolio-2/static/media/kasa.6c4866b80dae37f2b630.webp",
@@ -12,19 +13,13 @@
     "static/media/architecte.webp": "/portfolio-2/static/media/architecte.eac1def9a061e9b5f10e.webp",
     "static/media/accompagnactif.webp": "/portfolio-2/static/media/accompagnactif.c7afb1e7e1174079b002.webp",
     "static/media/evenementielle.webp": "/portfolio-2/static/media/evenementielle.7581846329c7bc5d6987.webp",
-    "static/media/redux.webp": "/portfolio-2/static/media/redux.a0c9da75f5c0b88d4122.webp",
-    "static/media/sass.webp": "/portfolio-2/static/media/sass.5ef32127241e93730e25.webp",
-    "static/media/react.webp": "/portfolio-2/static/media/react.9f35a6f5eb204b38d35d.webp",
-    "static/media/css.webp": "/portfolio-2/static/media/css.b3bad6271a31feb90cda.webp",
-    "static/media/html.webp": "/portfolio-2/static/media/html.99e892ce12702f1808a1.webp",
-    "static/media/js.webp": "/portfolio-2/static/media/js.2d8a1923f6ef7cebdabe.webp",
     "index.html": "/portfolio-2/index.html",
-    "main.9926482b.css.map": "/portfolio-2/static/css/main.9926482b.css.map",
-    "main.09267ecb.js.map": "/portfolio-2/static/js/main.09267ecb.js.map",
+    "main.e9f60d73.css.map": "/portfolio-2/static/css/main.e9f60d73.css.map",
+    "main.721c3af8.js.map": "/portfolio-2/static/js/main.721c3af8.js.map",
     "787.6a38f493.chunk.js.map": "/portfolio-2/static/js/787.6a38f493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9926482b.css",
-    "static/js/main.09267ecb.js"
+    "static/css/main.e9f60d73.css",
+    "static/js/main.721c3af8.js"
   ]
 }
