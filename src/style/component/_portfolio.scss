@@ -1,44 +1,44 @@
-
-  .headline {
+.headline {
+  .headline-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    
-    img {
-      background-size: cover;
-      height: 100vh;
-      /* min-height: 100%; */
-      width: 100%;
-      object-fit: cover;
-    }
-    h1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 35px;
-      position: absolute;
-      bottom: 58%;
-    }
-    h2 {
-      font-size: 25px;
-      position: absolute;
-      bottom: 50%;
-    }
-    p {
-      display: flex;
-      justify-content: center;
-      color: rgb(255, 255, 255);
-      font-size: 20px;
-      margin: 2% 15%;
-      align-items: center;
-      text-align: center;
-      line-height: 30px;
-      position: absolute;
-      bottom: 30%;
-    }
   }
+
+  img {
+    background-size: cover;
+    height: 100vh;
+    /* min-height: 100%; */
+    width: 100%;
+    object-fit: cover;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    position: absolute;
+    bottom: 58%;
+  }
+  h2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 50%;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 2% 15%;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom: 30%;
+  }
+}
 
 section.competences {
   display: flex;
@@ -49,21 +49,17 @@ section.competences {
   margin: 0 15px;
 
   .logos {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    display: flex;
+
     justify-content: center;
     align-items: center;
     justify-items: center;
-    align-content: center;
-    gap: 50px;
-    margin: 10% 25%;
+    margin-top: 50px;
+
   }
   img {
-    width: 50%;
-    height: 100%;
-    border-radius: 100%;
     border: 6px solid;
-    padding: 2%;
+    padding: 1%;
   }
   h1,
   p {
@@ -91,14 +87,20 @@ section.competences {
 
 @media screen and (max-width: 768px) {
   .headline {
-    margin: -30px 20px;
     background: none;
+
+    h1 {
+      top: 40px;
+    }
     h2 {
       text-align: center;
+      top: 30%;
+      margin: 0 15px 0 15px;
     }
     p {
-      width: 100%;
+      width: 91%;
       font-size: 18px;
+      bottom: 23%;
     }
     img {
       border-radius: 10px;
@@ -115,7 +117,8 @@ section.competences {
     }
     img {
       border: 3px solid;
-      width: 300%;
+      width: 80%;
+      
     }
   }
 }

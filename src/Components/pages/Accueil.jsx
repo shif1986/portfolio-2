@@ -2,18 +2,16 @@ import React from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
 
-import image2 from "../../assets/html.webp";
-import image3 from "../../assets/css.webp";
-import image4 from "../../assets/js.webp";
-import image5 from "../../assets/react.webp";
-import image6 from "../../assets/sass.webp";
-import image7 from "../../assets/redux.webp";
+import image2 from "../../assets/logo-competance.png";
+
 import backround from "../../assets/image-backround.jpg";
 
 export default function Accueil() {
   return (
     <main>
       <section className="headline">
+        <div className="headline-content">
+
         <h1>Bienvenue</h1>
         <h2>
           Je m'appelle Shifnas Saleem, Je suis Freelance, Developpeur Web.
@@ -24,6 +22,7 @@ export default function Accueil() {
           SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS DES
           UTILISATEURS.
         </p>
+        </div>
 
         <img src={backround} alt="image-backround" />
       </section>
@@ -41,11 +40,7 @@ export default function Accueil() {
 
           <div className="logos">
             <img src={image2} alt="html" />
-            <img src={image3} alt="css-logo" />
-            <img src={image4} alt="js-logo" />
-            <img src={image5} alt="react-logo" />
-            <img src={image6} alt="sass-logo" />
-            <img src={image7} alt="redux-logo" />
+           
           </div>
         </div>
       </section>
