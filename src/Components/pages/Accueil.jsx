@@ -35,7 +35,7 @@ export default function Accueil() {
             En 2023, j’ai suivi la formation Développeur Intégrateur Web (niveau
             Bac+2) au sein de l'ecole OpenClassrooms. J'ai acquis de
             l'expérience avec les langages de développement Web ci-après : Html,
-            Css, Javascript, React, Saas, Redux.
+            Css, Javascript, React, Saas.
           </p>
 
           <div className="logos">

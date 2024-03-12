@@ -9,12 +9,12 @@
   animation-fill-mode: forwards;
   @keyframes fadeInAnimation {
     0% {
-        opacity: 0;
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
-    }
+  }
 
   .wrapper_list {
     // max-width: 1140px;
@@ -42,38 +42,45 @@
         font-size: 30px;
         color: DarkGoldenrod;
         padding-right: 20px;
-        
-        
       }
-        //  .wrapper_icon :hover{
-            
-        //           transform: rotate(45deg);
-        //      }
+      //  .wrapper_icon :hover{
+
+      //           transform: rotate(45deg);
+      //      }
 
       .wrapper_container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
-       
- 
       }
     }
-    .container-text{
+    .container-text {
       line-height: 1.7;
       padding: 0 15px 15px;
       font-size: 18px;
-      
     }
-   
   }
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 768px) {
   .wrapper-service {
     p {
       width: 75%;
       padding: 30px;
+    }
+  }
+  .wrapper_service {
+    .wrapper_list {
+      width: 100%;
+      .wrapper {
+        h2 {
+          font-size: 14px;
+        }
+        .wrapper_icon {
+          font-size: 22px;
+        }
+      }
     }
   }
 }
