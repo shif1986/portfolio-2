@@ -11,7 +11,7 @@ export default function Service() {
   const isToggle = (id) => {
     console.log("showlist", showList);
     console.log("id", id);
- 
+
     setShowList(
       (prevState) => (
         console.log("prevstate", prevState),
@@ -28,7 +28,6 @@ export default function Service() {
     <div className="container-service">
       <div className="wrapper_service">
         {serviceData.map((service) => {
-            
           return (
             <div className="wrapper_list" key={service.id}>
               <div className="wrapper">
@@ -40,9 +39,7 @@ export default function Service() {
                     onClick={() => isToggle(service.id)}
                     className="wrapper_icon"
                   >
-                   
-
-                    {showList[service.id] ? <FiMinusCircle />  : <CgAdd />  }
+                    {showList[service.id] ? <FiMinusCircle /> : <CgAdd />}
                   </div>
                 </div>
 
