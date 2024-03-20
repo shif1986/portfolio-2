@@ -1,27 +1,35 @@
 import React from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
-
+import {
+  Page,
+  Text,
+  View,
+  Document,
+  StyleSheet,
+  PDFViewer,
+} from "@react-pdf/renderer";
 import image2 from "../../assets/logo-competance.png";
-
 import backround from "../../assets/image-backround.jpg";
+import Pdf from "../pdf";
 
 export default function Accueil() {
   return (
     <main>
       <section className="headline">
         <div className="headline-content">
+          <h1>Bienvenue</h1>
+          <h2>
+            Je m'appelle Shifnas Saleem, Je suis Freelance, Developpeur Web.
+          </h2>
+          <p>
+            JE SUIS UN FRONTEND DÉVELOPPEUR FREELANCE BASÉ EN FRANCE. JE
+            M`EFFORCE DE CONSTRUIRE DES SITES WEBS IMMERSIFS ET DE QUALITÉ GRÂCE
+            À UN CODE SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS
+            DES UTILISATEURS.
+          <Pdf />
+          </p>
 
-        <h1>Bienvenue</h1>
-        <h2>
-          Je m'appelle Shifnas Saleem, Je suis Freelance, Developpeur Web.
-        </h2>
-        <p>
-          JE SUIS UN FRONTEND DÉVELOPPEUR FREELANCE BASÉ EN FRANCE. JE M`EFFORCE
-          DE CONSTRUIRE DES SITES WEBS IMMERSIFS ET DE QUALITÉ GRÂCE À UN CODE
-          SOIGNEUSEMENT ÉLABORÉ ET UN DESIGN CENTRÉ SUR LES BESOINS DES
-          UTILISATEURS.
-        </p>
         </div>
 
         <img src={backround} alt="image-backround" />
@@ -40,7 +48,6 @@ export default function Accueil() {
 
           <div className="logos">
             <img src={image2} alt="html" />
-           
           </div>
         </div>
       </section>
