@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-2/static/css/main.131b8de5.css",
-    "main.js": "/portfolio-2/static/js/main.5a93a0eb.js",
+    "main.css": "/portfolio-2/static/css/main.34b0765b.css",
+    "main.js": "/portfolio-2/static/js/main.4ac1a660.js",
     "static/js/787.6a38f493.chunk.js": "/portfolio-2/static/js/787.6a38f493.chunk.js",
     "static/media/image-backround.jpg": "/portfolio-2/static/media/image-backround.514ddb2ba5b970e3a25d.jpg",
     "static/media/logo-competance.png": "/portfolio-2/static/media/logo-competance.e5913fe107a3362b29ac.png",
     "static/media/photographe.webp": "/portfolio-2/static/media/photographe.c544db4824831c685a60.webp",
     "static/media/redball-tours.webp": "/portfolio-2/static/media/redball-tours.0513498b638f230d6c6c.webp",
     "static/media/kasa.webp": "/portfolio-2/static/media/kasa.6c4866b80dae37f2b630.webp",
+    "static/media/CV-Saleem-Shifnas-2024.webp": "/portfolio-2/static/media/CV-Saleem-Shifnas-2024.55e3da65821bce94622b.webp",
     "static/media/ohmyfood.webp": "/portfolio-2/static/media/ohmyfood.c8acd87dc6145786a642.webp",
     "static/media/booki.webp": "/portfolio-2/static/media/booki.a8d796bffc04e1343407.webp",
     "static/media/architecte.webp": "/portfolio-2/static/media/architecte.eac1def9a061e9b5f10e.webp",
     "static/media/accompagnactif.webp": "/portfolio-2/static/media/accompagnactif.c7afb1e7e1174079b002.webp",
     "static/media/evenementielle.webp": "/portfolio-2/static/media/evenementielle.7581846329c7bc5d6987.webp",
     "index.html": "/portfolio-2/index.html",
-    "main.131b8de5.css.map": "/portfolio-2/static/css/main.131b8de5.css.map",
-    "main.5a93a0eb.js.map": "/portfolio-2/static/js/main.5a93a0eb.js.map",
+    "main.34b0765b.css.map": "/portfolio-2/static/css/main.34b0765b.css.map",
+    "main.4ac1a660.js.map": "/portfolio-2/static/js/main.4ac1a660.js.map",
     "787.6a38f493.chunk.js.map": "/portfolio-2/static/js/787.6a38f493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.131b8de5.css",
-    "static/js/main.5a93a0eb.js"
+    "static/css/main.34b0765b.css",
+    "static/js/main.4ac1a660.js"
   ]
 }
