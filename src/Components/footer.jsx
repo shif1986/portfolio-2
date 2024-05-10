@@ -13,7 +13,7 @@ export default function footer() {
       <p>Mail</p>
     <link rel="stylesheet" href="mailto:m.shifnas@gmail.com" /> */}
       <div>
-        <h3>Telephone</h3>
+        <h3>Téléphone</h3>
         <p>0782195609</p>
       </div>
       <div>

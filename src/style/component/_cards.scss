@@ -1,12 +1,16 @@
 .card-container {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 30px;
-  padding: 0px 0px 0px 50px;
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 6rem;
+
   @keyframes fadeInAnimation {
     0% {
       opacity: 0;
@@ -32,6 +36,7 @@
       object-fit: cover;
       cursor: pointer;
     }
+
     .image-modale {
       max-height: 350px;
     }
@@ -41,8 +46,21 @@
       color: #fff;
       font-size: 18px;
     }
+    .portfolio-hover{
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      .portfolio-title{
+        color: black;
+      }    }
   }
 }
+// .card-container  :hover{
+//   background-color: #fff;
+
+// }
 
 @media screen and (max-width: 768px) {
   .card-container {
