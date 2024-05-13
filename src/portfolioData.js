@@ -18,7 +18,7 @@ export const portfolioData = [
     alt:"living-room",
     language:"Language : HTML, CSS",
     link : "https://shif1986.github.io/booki/",
-    tag : "html,css",
+    tag : ['all',"html,css"]
     
 
   },
@@ -29,7 +29,7 @@ export const portfolioData = [
     alt:"Fine-dine-dish",
     language:"Language : HTML, CSS ANIMATION",
     link : "https://shif1986.github.io/Oh-my-food/",
-    tag : "Animation",
+    tag : ['all',"Animation",]
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const portfolioData = [
     alt:"Closer-look-of-eye",
     language: "Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P9-Photographe/",
-    tag : "js",
+    tag : ['all',"js",]
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const portfolioData = [
     alt:"House-front",
     language:"Language : HTML, CSS, JAVASCRIPT",
     link : "https://shif1986.github.io/P6-Architecte/",
-    tag : "js",
+    tag : ['all',"js",]
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ export const portfolioData = [
     alt:"kitchen",
     language:"Language : REACT",
     link: "https://shif1986.github.io/Kasa/",
-    tag : "react",
+    tag : ['all',"react",]
 
    
   },
@@ -67,7 +67,7 @@ export const portfolioData = [
     alt:"Closer-look-of-eye",
     language:"Language : REACT",
     link : "https://shif1986.github.io/P10-D-buggez/",
-    tag : "react",
+    tag : ['all',"react",]
     
   },
   {
@@ -77,7 +77,7 @@ export const portfolioData = [
     alt:"river-drive",
     language:"Language : WORDPRESS",
     link : " https://redballtours.com/",
-    tag : "wordpress",
+    tag : ['all',"wordpress",]
      
   },
   {
@@ -87,7 +87,7 @@ export const portfolioData = [
     alt:"page-d'accueil",
     language:"Language : WORDPRESS",
     link :  "https://accompagn-actif.com/",
-    tag : "wordpress",
+    tag : ['all',"wordpress",]
    
   },
 
