@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { portfolioData } from "../../portfolioData";
 import Cards from "../cards";
 import TagButton from "../TagButton";
@@ -9,36 +9,20 @@ export default function Portfolio() {
   const [tag, setTag] = useState("all");
   const [filteredPortfolioData, setFilteredPortfolioData] = useState([]);
 
-  // useState(() => {
-  //   tag === "all"
-  //     ? setFilteredPortfolioData(portfolioData)
-  //     : setFilteredPortfolioData.filter((image) => image.tag === tag);
-  // }, [tag]);
-
-  const updateItem = portfolioData.filter(
-    (currentItem) => currentItem.tag.includes(tag) || tag === "all"
-  );
-  console.log({updateItem});
-
+  useEffect(() => {
+    // Quand le composant il est monté
+    if (tag === "all") {
+      setFilteredPortfolioData(portfolioData);
+    } else {
+      const filteredData = portfolioData.filter((item) =>
+        item.tag.includes(tag)
+      );
+      setFilteredPortfolioData(filteredData);
+      console.log({filteredData});
+    }
+    console.log('Composant Mounted');
+  }, [tag]);
   
-
-  const extractUniqueCategories = (data) => {
-    const categories = data.reduce((acc, item) => {
-      console.log({acc});
-      console.log({item});
-      for (const category of item.tag) {
-        if (!acc.includes(category)) {
-          acc.push(category);
-        }
-        return acc;
-      }
-      
-  return categories
-    })};
-  
-  const uniqueCategories = extractUniqueCategories(portfolioData);
-
-
 
   return (
     <div>
@@ -46,17 +30,17 @@ export default function Portfolio() {
       <div className="gallerie">
         <h1>Portfolio</h1>
         {/* Galery Filter */}
-        <div className="Portfolio-filter" >
-          <TagButton categories={uniqueCategories}  updateItem={updateItem}  setTag={setTag} />
-        
+        <div className="Portfolio-filter">
+          <TagButton setTag={setTag} tag={tag} />
         </div>
         {filteredPortfolioData.map((image) => (
           <div key={image.id}> {image.imageName}</div>
         ))}
+
       </div>
 
       <div className="card-container">
-        {portfolioData.map((portfolio) => {
+        {filteredPortfolioData.map((portfolio) => {
           return (
             <div className="card-list" key={portfolio.id}>
               <Cards
@@ -78,4 +62,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
