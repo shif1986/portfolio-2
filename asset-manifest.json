@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-2/static/css/main.b36d49f8.css",
-    "main.js": "/portfolio-2/static/js/main.091b7194.js",
+    "main.js": "/portfolio-2/static/js/main.ed8e6814.js",
     "static/js/787.6a38f493.chunk.js": "/portfolio-2/static/js/787.6a38f493.chunk.js",
     "static/media/image-backround.jpg": "/portfolio-2/static/media/image-backround.514ddb2ba5b970e3a25d.jpg",
     "static/media/logo-competance.png": "/portfolio-2/static/media/logo-competance.e5913fe107a3362b29ac.png",
     "static/media/photographe.webp": "/portfolio-2/static/media/photographe.c544db4824831c685a60.webp",
     "static/media/redball-tours.webp": "/portfolio-2/static/media/redball-tours.0513498b638f230d6c6c.webp",
     "static/media/kasa.webp": "/portfolio-2/static/media/kasa.6c4866b80dae37f2b630.webp",
-    "static/media/CV-Saleem-Shifnas-2024.webp": "/portfolio-2/static/media/CV-Saleem-Shifnas-2024.55e3da65821bce94622b.webp",
+    "static/media/SALEEM-Shifnas-CV.webp": "/portfolio-2/static/media/SALEEM-Shifnas-CV.bc0f2eb32653924fc444.webp",
     "static/media/ohmyfood.webp": "/portfolio-2/static/media/ohmyfood.c8acd87dc6145786a642.webp",
     "static/media/booki.webp": "/portfolio-2/static/media/booki.a8d796bffc04e1343407.webp",
     "static/media/architecte.webp": "/portfolio-2/static/media/architecte.eac1def9a061e9b5f10e.webp",
@@ -16,11 +16,11 @@
     "static/media/evenementielle.webp": "/portfolio-2/static/media/evenementielle.7581846329c7bc5d6987.webp",
     "index.html": "/portfolio-2/index.html",
     "main.b36d49f8.css.map": "/portfolio-2/static/css/main.b36d49f8.css.map",
-    "main.091b7194.js.map": "/portfolio-2/static/js/main.091b7194.js.map",
+    "main.ed8e6814.js.map": "/portfolio-2/static/js/main.ed8e6814.js.map",
     "787.6a38f493.chunk.js.map": "/portfolio-2/static/js/787.6a38f493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b36d49f8.css",
-    "static/js/main.091b7194.js"
+    "static/js/main.ed8e6814.js"
   ]
 }
