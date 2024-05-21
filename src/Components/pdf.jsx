@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/CV-Saleem-Shifnas-2024.webp";
+import resume from "../assets/SALEEM-Shifnas-CV.webp";
 
 const pdf = () => {
   return (

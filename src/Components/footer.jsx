@@ -4,7 +4,7 @@ export default function footer() {
   return (
     <footer className="">
       <div className="tout-droit">
-        <h3>Shifnas Saleem </h3>
+        <h3>SALEEM Shifnas </h3>
         <p>© 2023 Tous les droits sont réservés</p>
       </div>
 
